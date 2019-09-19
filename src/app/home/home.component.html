@@ -40,8 +40,11 @@ urlToImage -->
       <img src="{{ card.urlToImage }}" alt="" />
     </div>
     <div class="card-body">
+      <div class="title">
+        {{ card.title.slice(0, 65) }}
+      </div>
       <div class="card-desc">
-        {{ card.description }}
+        {{ card.description.slice(0, 210) }}...
       </div>
       <div class="card-info">
         <div class="info">

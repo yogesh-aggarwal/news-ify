@@ -3,6 +3,13 @@
     Newsify
   </div>
 
+  <div class="search-bar-container">
+    <div class="search-bar">
+      <!-- <img src="../assets/img/search.png" alt=""> -->
+      <input type="text" placeholder="Search">
+    </div>
+  </div>
+
   <div class="menu">
     <ul>
         <li [routerLink]="[ '/' ]">
@@ -10,9 +17,6 @@
         </li>
       <li (click)="refreshContent()">
         Refresh
-      </li>
-      <li>
-        Breaking news
       </li>
       <li [routerLink]="[ '/settings' ]">
         Settings

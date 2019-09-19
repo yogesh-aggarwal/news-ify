@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lexend+Deca|family=Open+Sans:600&display=swap");
 
 * {
   font-family: "Lexend Deca", sans-serif;
   user-select: none;
-  transition: all .1s;
+  transition: all 0.1s;
   color: #fff;
 }
 
@@ -45,9 +45,33 @@ header {
     margin-right: 20px;
   }
 
+  .search-bar-container {
+    margin-left: 10%;
+    margin-top: -4px;
+
+    .search-bar {
+      width: 50%;
+
+      input {
+        width: 100%;
+        background: rgb(82, 82, 82);
+        border: none;
+        border-radius: 3px;
+        padding: 5px 15px 5px 15px;
+        outline: none;
+
+        &:hover,
+        &:active,
+        &:focus {
+          background: rgb(92, 92, 92);
+        }
+      }
+    }
+  }
+
   .menu {
     float: right;
-    margin-top: -15px;
+    margin-top: -2.4em;
 
     ul {
       list-style: none;
@@ -59,7 +83,7 @@ header {
         cursor: default;
 
         &:hover {
-            color: #c1c1c1;
+          color: #c1c1c1;
         }
       }
     }

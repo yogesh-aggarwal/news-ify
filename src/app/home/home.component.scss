@@ -51,13 +51,14 @@
 }
 
 .news-card-container {
-    margin-top: 20px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .card {
   margin: 20px 20px 20px 20px;
   width: 300px;
-  height: 30em;
+  height: 31em;
   display: inline-block;
   box-shadow: 0 0px 2px #fff;
   border-radius: 10px;
@@ -70,12 +71,26 @@
       border-radius: 10px 10px 0 0;
       width: 100%;
       height: 12em;
+      -webkit-user-drag: none;
     }
   }
 
   .card-body {
+    text-align: left;
     float: left;
     margin: 20px 20px 20px 20px;
+
+    .title {
+      // text-decoration: underline;
+      margin-bottom: 8px;
+      padding-bottom: 8px;
+      // font-family: 'Open Sans', sans-serif;
+      border-bottom: 1px solid rgb(90, 90, 90);
+    }
+
+    .card-desc {
+      color: rgb(236, 236, 236);
+    }
   }
 
   &:hover {
@@ -108,5 +123,11 @@
       border-radius: 3px;
       padding: 5px 12px 5px 12px;
     }
+  }
+}
+
+@media (max-width: 700px) {
+  header input {
+    display: none;
   }
 }

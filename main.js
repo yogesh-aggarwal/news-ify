@@ -5,8 +5,9 @@ let win;
 
 function loadWindow() {
   win = new BrowserWindow({
-    width: 1070,
+    width: 1418,
     height: 760,
+    minWidth: 1064,
 
     webPreferences: {
       nodeIntegration: true
