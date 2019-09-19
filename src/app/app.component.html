@@ -1,3 +1,4 @@
+<!-- <div class="blur"></div> -->
 <header>
   <div class="header-title">
     Newsify
@@ -6,19 +7,19 @@
   <div class="search-bar-container">
     <div class="search-bar">
       <!-- <img src="../assets/img/search.png" alt=""> -->
-      <input type="text" placeholder="Search">
+      <input type="text" placeholder="Search" />
     </div>
   </div>
 
   <div class="menu">
     <ul>
-        <li [routerLink]="[ '/' ]">
-          Home
-        </li>
+      <li [routerLink]="['/']">
+        Home
+      </li>
       <li (click)="refreshContent()">
         Refresh
       </li>
-      <li [routerLink]="[ '/settings' ]">
+      <li [routerLink]="['/settings']">
         Settings
       </li>
     </ul>

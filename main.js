@@ -8,6 +8,7 @@ function loadWindow() {
     width: 1418,
     height: 760,
     minWidth: 1064,
+    icon: "src/assets/img/logo.png",
 
     webPreferences: {
       nodeIntegration: true
