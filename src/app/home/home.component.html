@@ -1,0 +1,61 @@
+<div class="tags">
+  <div class="desc">
+    Popular tags
+  </div>
+  <ul>
+    <li class="active">
+      Latest
+    </li>
+    <li>
+      Trending
+    </li>
+    <li>
+      New
+    </li>
+    <li>
+      Fake
+    </li>
+    <li>
+      Technology
+    </li>
+    <li>
+      Space
+    </li>
+  </ul>
+</div>
+
+<!-- author
+content
+description
+publishedAt
+source
+title
+url
+urlToImage -->
+
+<div class="news-card-container">
+  <div class="card" *ngFor="let card of news">
+    <!-- {{ card.url }} -->
+    <div class="card-img">
+      <img src="{{ card.urlToImage }}" alt="" />
+    </div>
+    <div class="card-body">
+      <div class="card-desc">
+        {{ card.description }}
+      </div>
+      <div class="card-info">
+        <div class="info">
+          <div class="author">
+            {{ card.source.name }}
+          </div>
+          <div class="date">
+            25 March, 2019
+          </div>
+        </div>
+        <div class="read-btn" (click)="readPost(card.url)">
+          Read
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

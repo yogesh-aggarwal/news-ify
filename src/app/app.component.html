@@ -1,0 +1,26 @@
+<header>
+  <div class="header-title">
+    Newsify
+  </div>
+
+  <div class="menu">
+    <ul>
+        <li [routerLink]="[ '/' ]">
+          Home
+        </li>
+      <li (click)="refreshContent()">
+        Refresh
+      </li>
+      <li>
+        Breaking news
+      </li>
+      <li [routerLink]="[ '/settings' ]">
+        Settings
+      </li>
+    </ul>
+  </div>
+</header>
+
+<div class="content-container">
+  <router-outlet></router-outlet>
+</div>
