@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "newsify"
+    }
+  },
+  "defaultProject": "newsify",
+  "cli": {
+    "analytics": "15924d3a-4be2-42b3-9f71-6b3230aa6014"
+  }
 }
