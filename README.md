@@ -14,7 +14,7 @@ Are you a fan of what's happening around you? Want a daily dose of top trending 
 and a lots more...
 
 ## Installation
-To enjoy all of the services of `News-Ify`, you just have to go to the [releases](https://github.com/yogesh-aggarwal/news-ify/releases) page & download your desired distribution
+To enjoy all of the services of `News-Ify`, you just have to go to the [releases](https://github.com/yogesh-aggarwal/news-ify/releases) page & download your desired distribution of it.
 
 ## Development
 Want to contribute? We love that too! To start contributing, read the following instructions carefully:
