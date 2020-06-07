@@ -1,27 +1,26 @@
-# Newsify
+# News-Ify
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+Are you a fan of what's happening around you? Want a daily dose of top trending news? Are you curious about the world? If yes, then here's your stop for all the news bundles.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Over 60k news articles daily of different categories.
+- Customized home page exclusively for you.
+- Daily notification for the latest trending news.
+- Bored of reading? Listen the news right from your personal computer
+- Listen to your favorite podcasts.
+- Save your favorite articles & podcasts.
+- Watch your favorite live news channel right from your personal computer
 
-## Code scaffolding
+and a lots more...
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
 
-## Build
+To enjoy all of the services of News-Ify, you just have to go to the releases page & download your desired distribution of it.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Development
 
-## Running unit tests
+Want to contribute? We love that too! To start contributing, read the following instructions carefully:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Install the necessary packages by running:
+npm install
