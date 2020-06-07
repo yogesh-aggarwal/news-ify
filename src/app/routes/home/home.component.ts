@@ -1,15 +1,26 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
+import { DataService } from "../../services/data.service";
+import { ArticleInterface } from "../../services/interfaces";
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  selector: "app-home",
+  templateUrl: "./home.component.html",
+  styleUrls: ["./home.component.scss"],
 })
 export class HomeComponent implements OnInit {
+  articles: Array<ArticleInterface> = [];
+  currentArticle: string = "";
 
-  constructor() { }
+  constructor(private dataService: DataService) {}
 
-  ngOnInit(): void {
+  readPost(url: string) {
+    this.currentArticle = url;
+    console.log(`read post: ${url}`);
   }
 
+  ngOnInit() {
+    this.dataService.getHomeArticles().subscribe(({ articles }) => {
+      this.articles = articles;
+    });
+  }
 }

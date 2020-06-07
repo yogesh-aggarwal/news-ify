@@ -1,15 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from "@angular/core";
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
-  selector: 'app-article',
-  templateUrl: './article.component.html',
-  styleUrls: ['./article.component.scss']
+  selector: "article",
+  templateUrl: "./article.component.html",
+  styleUrls: ["./article.component.scss"],
 })
 export class ArticleComponent implements OnInit {
+  constructor(public dataService: DataService) {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

@@ -1,1 +1,41 @@
-<p>home works!</p>
+<div class="tags">
+  <div class="desc">
+    Popular tags
+  </div>
+  <ul>
+    <li class="active">
+      Latest
+    </li>
+    <li>
+      Trending
+    </li>
+    <li>
+      New
+    </li>
+    <li>
+      Fake
+    </li>
+    <li>
+      Technology
+    </li>
+    <li>
+      Space
+    </li>
+  </ul>
+</div>
+
+<!-- author
+content
+description
+publishedAt
+source
+title
+url
+urlToImage -->
+<article></article>
+<div class="news-card-container">
+  <article-card
+    [article]="article"
+    *ngFor="let article of articles"
+  ></article-card>
+</div>

@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Lexend+Deca|family=Open+Sans:600&display=swap");
+
+/* Main */
+// $backgroundImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw9BxpQFQdO4oNDL1jDq2C_-Zy_lyTHmTaQBgZoBsUYA-o8reH3g";
+// $backgroundImage: "https://cdn.suwalls.com/wallpapers/abstract/dark-blue-blur-29233-1920x1080.jpg";
+// $backgroundImage: "https://stmed.net/sites/default/files/turquoise-blur-wallpapers-25329-9997933.jpg";
+// $backgroundImage: "http://sf.co.ua/14/03/wallpaper-1985538.jpg";
+// $backgroundImage: "http://www.hhcpn.org/wp-content/uploads/2015/10/blurred-background-2.jpg";
+// $backgroundImage: "http://www.cubitech.com/wp-content/uploads/2014/11/blurred-background-1.jpg";
+// $backgroundImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSElJ4ERIgurSuodD7Yxy7f4SjjQY6JtZa0GPBC2sIlLRN5lkGw";
+$backgroundImage: "https://d2v9y0dukr6mq2.closrc/app/home/home.component.scssudfront.net/video/thumbnail/itCjTBE/abstract-dark-shiny-lights-motion-background-video-animation-hd-1920x1080_evn79lg3e__F0000.png";
+
+* {
+  font-family: "Lexend Deca", sans-serif;
+  user-select: none;
+  transition: all 0.1s;
+  color: #fff;
+}
+
+body {
+  background: rgb(43, 43, 43);
+  // background-image: url($backgroundImage);
+  color: #fff;
+}
+
+/* For Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  background: rgb(100, 100, 100);
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(70, 70, 70);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(100, 100, 100);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(100, 100, 100);
+}

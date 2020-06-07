@@ -1,1 +1,27 @@
-<p>article-card works!</p>
+<div class="card">
+  <!-- {{ article.url }} -->
+  <div class="card-content">
+    <div class="card-img">
+      <img src="{{ article.urlToImage }}" alt="" />
+    </div>
+    <div class="card-body">
+      <div class="title">
+        {{ article.title.slice(0, 65) }}
+      </div>
+      <div class="card-desc">{{ article.description.slice(0, 210) }}...</div>
+      <div class="card-info">
+        <div class="info">
+          <div class="author">
+            {{ article.source.name }}
+          </div>
+          <div class="date">
+            25 March, 2019
+          </div>
+        </div>
+        <div class="read-btn" (click)="readPost(article.url)">
+          Read
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

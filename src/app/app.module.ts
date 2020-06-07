@@ -8,6 +8,7 @@ import { ArticleCardComponent } from './components/article-card/article-card.com
 import { ArticleComponent } from './components/article/article.component';
 import { HomeComponent } from './routes/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
