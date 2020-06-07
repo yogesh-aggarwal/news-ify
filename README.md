@@ -20,7 +20,8 @@ To enjoy all of the services of NewsIfy, you just have to go to the releases pag
 
 ## Development
 
-Want to contribute? We love that too! To start contributing, read the following instructions carefully:
+Want to contribute? We love that too! To start contributing, first install the necessary packages by running:
 
-Install the necessary packages by running:
+```
 npm install
+```
